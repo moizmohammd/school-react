@@ -1,0 +1,198 @@
+// import {MDBCarousel,
+//     MDBCarouselInner,
+//     MDBCarouselItem,
+//     MDBContainer,
+//     MDBRow,
+//     MDBCol,
+//     MDBIcon} from 'mdb-react-ui-kit';
+
+// function Feedback(){
+
+//     return(
+//         <>
+//     <MDBContainer className="my-5">
+//       <MDBCarousel showControls dark>
+//         <MDBCarouselInner>
+//           <MDBCarouselItem className="active text-center">
+//             <img
+//               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+//               alt="avatar"
+//               className="rounded-circle shadow-1-strong mb-4"
+//               style={{ width: "150px" }}
+//             />
+//             <MDBRow className="d-flex justify-content-center">
+//               <MDBCol lg="8">
+//                 <h5 className="mb-3">Maria Kate</h5>
+//                 <p>Photographer</p>
+//                 <p className="text-muted">
+//                   <MDBIcon fas icon="quote-left" className="pe-2" />
+//                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+//                   et deleniti nesciunt sint eligendi reprehenderit reiciendis,
+//                   quibusdam illo, beatae quia fugit consequatur laudantium velit
+//                   magnam error. Consectetur distinctio fugit doloremque.
+//                 </p>
+//               </MDBCol>
+//             </MDBRow>
+//             <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon far icon="star" size="sm" />
+//               </li>
+//             </ul>
+//           </MDBCarouselItem>
+
+//           <MDBCarouselItem className="text-center">
+//             <img
+//               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
+//               alt="avatar"
+//               className="rounded-circle shadow-1-strong mb-4"
+//               style={{ width: "150px" }}
+//             />
+//             <MDBRow className="d-flex justify-content-center">
+//               <MDBCol lg="8">
+//                 <h5 className="mb-3">John Doe</h5>
+//                 <p>Web Developer</p>
+//                 <p className="text-muted">
+//                   <MDBIcon fas icon="quote-left" className="pe-2" />
+//                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+//                   et deleniti nesciunt sint eligendi reprehenderit reiciendis.
+//                 </p>
+//               </MDBCol>
+//             </MDBRow>
+//             <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon far icon="star" size="sm" />
+//               </li>
+//             </ul>
+//           </MDBCarouselItem>
+
+//           <MDBCarouselItem className="text-center">
+//             <img
+//               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+//               alt="avatar"
+//               className="rounded-circle shadow-1-strong mb-4"
+//               style={{ width: "150px" }}
+//             />
+//             <MDBRow className="d-flex justify-content-center">
+//               <MDBCol lg="8">
+//                 <h5 className="mb-3">Anna Deynah</h5>
+//                 <p>Web Developer</p>
+//                 <p className="text-muted">
+//                   <MDBIcon fas icon="quote-left" className="pe-2" />
+//                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+//                   et deleniti nesciunt sint eligendi reprehenderit reiciendis,
+//                   quibusdam illo, beatae quia fugit consequatur laudantium velit
+//                   magnam error. Consectetur distinctio fugit doloremque.
+//                 </p>
+//               </MDBCol>
+//             </MDBRow>
+//             <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon fas icon="star" size="sm" />
+//               </li>
+//               <li>
+//                 <MDBIcon far icon="star" size="sm" />
+//               </li>
+//             </ul>
+//           </MDBCarouselItem>
+//         </MDBCarouselInner>
+//       </MDBCarousel>
+//     </MDBContainer>
+//         </>
+//     )
+// }
+
+// export default Feedback;
+
+
+
+<div className="sb__footer-links-div">
+  <h4>Map</h4>
+  <div className="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.7789078651776!2d-17.399095!3d78.451689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807f9ac9bcb5%3A0xbb385b5e1e5f3a3a!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1620112673507!5m2!1sen!2sus"
+      width="100%"
+      height="200"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+17.399095, 78.451689
+
+
+// Navbar code
+
+import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown'
+import logo from './logo.jpeg'
+// import './Navbar.css'
+function Navbar(){
+return(
+    <>
+      <Nav className="justify-content-center" activeKey="/home">
+        <Nav.Item>
+          <Nav.Link href="/home">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+         <NavDropdown id= 'about-us-dropdown' title={<span>About Us</span>} drop='down' >
+          <NavDropdown.Item href='/school'>About School</NavDropdown.Item>
+          <NavDropdown.Divider></NavDropdown.Divider>
+          <NavDropdown.Item href='/dir'>Director's Message</NavDropdown.Item>
+          <NavDropdown.Divider></NavDropdown.Divider>
+          <NavDropdown.Item href='/pri'>Principal's Message</NavDropdown.Item>
+         </NavDropdown>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="./Gallery">Gallery</Nav.Link>
+        </Nav.Item>
+        <img src={logo} alt='logo'style={{width:'30px',height:'30px'}}></img>
+        <Nav.Item>
+          <Nav.Link to="/news">News & Events</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link  to="/admissions">Admissions</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="/facilities">Facilities</Nav.Link>
+        </Nav.Item>
+        </Nav>
+        
+    </>
+  );
+}
+export default Navbar;
